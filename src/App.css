@@ -1,0 +1,104 @@
+body {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  text-transform: uppercase;
+}
+
+.buy-text {
+  text-transform: uppercase;
+  color: red;
+}
+
+.expire-notice {
+  padding: 2rem;
+  border: 1px solid #ebebeb;
+  border-radius: 0.25rem;
+  margin: 0.5rem;
+}
+
+.expire-notice > span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: red;
+}
+
+.expire-notice > p {
+  font-size: 1.5rem;
+}
+
+.display-timer {
+  padding: 0.5rem;
+}
+
+.display-timer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding: 0.5rem;
+  border: 1px solid #ebebeb;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.display-timer .countdown {
+  line-height: 1.25rem;
+  padding: 0 0.75rem 0 0.75rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.display-timer .countdown.danger {
+  color: #ff0000;
+}
+
+.display-timer .countdown > p {
+  margin: 0;
+}
+
+.display-timer .countdown > span {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+  grid-template-columns: auto auto auto auto;
+  background-color: #ffbb66;
+}
+
+.grid-item {
+  background-color: #d5f3fe;
+  border: 10px solid #66d3fa;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  text-align: left;
+}
+
+.grid-item .item-header {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.grid-item .item-img {
+  display: block;
+  width: 100px;
+  margin: 8px;
+  margin-left: auto;
+  /* margin-right: auto; */
+}
+
+.grid-item .item-descr {
+  margin: 0px
+}
